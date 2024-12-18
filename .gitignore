@@ -47,3 +47,26 @@ Thumbs.db
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
+
+# macOS system files
+.DS_Store
+
+# Build directories
+build*/
+debug/
+release/
+
+# Qt Creator specific files
+*.pro.user
+*.pro.user.*
+*.qrc.dep
+
+# Generated files
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Logs, temp, and backups
+*.log
+*~
+*.swp
